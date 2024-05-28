@@ -1,0 +1,71 @@
+.main-content {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff8e1;
+}
+
+.main-content h2 {
+  color: #ff69b4; /* Hot pink for the title */
+  margin-bottom: 20px;
+}
+
+.content-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #d4a373;
+}
+
+.card p {
+  margin: 0;
+  color: #333;
+}
+
+.cta-button {
+  background-color: #a53b74; /* Deep pink for the button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Georgia', serif;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #b14489; /* Medium violet red on hover */
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}

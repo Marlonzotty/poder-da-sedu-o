@@ -1,0 +1,64 @@
+.instructor {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .instructor-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .instructor h2 {
+    color: #d4a373;
+  }
+  
+  .instructor p {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #c0845e;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #a9673e;
+  }
+  
+  @media (max-width: 768px) {
+    .instructor h2 {
+      font-size: 1.5rem;
+    }
+  
+    .instructor p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .instructor h2 {
+      font-size: 1.2rem;
+    }
+  
+    .instructor p {
+      font-size: 0.9rem;
+    }
+  
+    .cta-button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  

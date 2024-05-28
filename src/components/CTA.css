@@ -1,0 +1,47 @@
+.cta {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #d4a373;
+    color: white;
+  }
+  
+  .cta h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #c0845e;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #a9673e;
+  }
+  
+  @media (max-width: 768px) {
+    .cta h2 {
+      font-size: 1.5rem;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cta h2 {
+      font-size: 1.2rem;
+    }
+  
+    .cta-button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  

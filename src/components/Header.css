@@ -1,0 +1,21 @@
+.header {
+  height: 30vh;
+  background: url('./imgs/header.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 20vh;
+  }
+}
